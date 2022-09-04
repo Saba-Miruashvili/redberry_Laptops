@@ -1,0 +1,486 @@
+#BG1 {
+    position: absolute;
+    width: 1920px;
+    height: 1920px;;
+  
+    background: #f6f6f6;
+  }
+  
+  #BG2 {
+    
+    height: 1571px;
+    width: 1226px;
+    left: 347px;
+    top: 157px;
+    border-radius: 18px;
+    background: #FFFFFF;
+    position:absolute;
+  }
+  
+  .box{
+    /* Rectangle 6 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 423px;
+    left: 521px;
+    right: 521px;
+    top: 225px;
+    background: #f7f7f7;
+    /* ლურჯი/700 */
+    border: 2px dashed #4386A9;
+    border-radius: 18px;
+
+  }
+
+  .boxText{
+    position: absolute;
+    width: 195px;
+    height: 76px;
+    left: calc(50% - 195px/2 + 0.5px);
+    top: 175px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    /* or 190% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4386A9;
+  }
+
+  #p1{
+    width: 90px;
+    margin-top: 10px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    }
+
+
+    #moveDown1{
+      /* Input Fields */
+
+
+      /* Auto layout */
+
+      display:flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 8px 24px;
+      gap: 8px;
+
+      position: absolute;
+      width: 455px;
+      height: 134px;
+      left: 150px;
+      top: 533px;
+
+    }
+
+    #Laptopname{
+      position: absolute;
+      /* Frame 133 */
+    
+      box-sizing: border-box;
+      
+      width: 407px;
+      height: 60px;
+    
+      /* ლურჯი/400 */
+    
+      border: 1.8px solid #8ac0e2;
+      border-radius: 8px;
+    
+      /* Inside auto layout */
+    
+      order: 1;
+    }
+
+    #brand{
+      /* Frame 133 */
+
+
+      width: 408px;
+      height: 60px;
+
+      background: #EBEBEB;
+      border-radius: 8px;
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+
+
+    #moveDown2{
+      /* Input Fields */
+      /* Auto layout */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1px 24px;
+
+      position: absolute;
+      width: 456px;
+      height: 76px;
+      left: calc(50% - 456px/2 + 235px);
+      top: 563px;
+
+    }
+
+    #Line15{
+      /* Line 15 */
+      position: absolute;
+      height: 0px;
+      left: 174px;
+      right: 174px;
+      top: 711px;
+
+      /* შავი/200 */
+
+      border: 1px solid #C7C7C7;
+    }
+
+    #moveDown3{
+    /* Input Fields */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+
+    position: absolute;
+    width: 325px;
+    height: 76px;
+    left: calc(50% - 325px/2 - 300.5px);
+    top: 782px;
+
+    }
+
+    #CPU{
+      /* Frame 133 */
+
+
+      width: 277px;
+      height: 60px;
+
+      background: #EBEBEB;
+      border-radius: 8px;
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+
+    #CPUid1{
+      /* Input Fields */
+
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px 24px;
+      gap: 8px;
+
+      position: absolute;
+      width: 324px;
+      height: 134px;
+      left: calc(50% - 324px/2);
+      top: 753px;
+    }
+
+    
+    #CPUid2{
+      /* Input Fields */
+
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px 24px;
+      gap: 8px;
+
+      position: absolute;
+      width: 324px;
+      height: 134px;
+      left: calc(50% - 324px/2 + 300px);
+      top: 753px;
+
+    }
+
+    #CPUinput{
+      /* Frame 133 */
+
+
+      box-sizing: border-box;
+
+      width: 276px;
+      height: 60px;
+
+      /* ლურჯი/400 */
+
+      border: 1.8px solid #8AC0E2;
+      border-radius: 8px;
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+
+    #cputext{
+      width: 276px;
+      height: 21px;
+      
+      font-family: 'Helvetica Neue';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 21px;
+      /* identical to box height, or 150% */
+      
+      display: flex;
+      align-items: center;
+      
+      /* შავი/500 */
+      
+      color: #2E2E2E;
+      
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 2;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+
+    #moveDown4{
+      /* Input Fields */
+
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 8px 24px;
+      gap: 8px;
+
+      position: absolute;
+      width: 455px;
+      height: 134px;
+      left: calc(50% - 455px/2 - 235.5px);
+      top: 920px;
+
+    }
+
+    #Line16{
+      /* Line 16 */
+
+
+      position: absolute;
+      height: 0px;
+      left: 174px;
+      right: 174px;
+      top: 1098px;
+
+      /* შავი/200 */
+
+      border: 1px solid #C7C7C7;
+    }
+
+
+    #RNS{
+      /* მეხსიერების ტიპი */
+
+
+      position: absolute;
+      width: 163px;
+      height: 21px;
+      left: 643px;
+      top: 918px;
+
+      font-family: 'Helvetica Neue';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      /* identical to box height, or 117% */
+
+      display: flex;
+      align-items: center;
+    }
+
+    #RS1{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 18px;
+      
+      position: absolute;
+      width: 71px;
+      height: 21px;
+      left: 644px;
+      top: 975px;
+      width: 35px;
+      height: 21px;
+      
+      font-family: 'Helvetica Neue';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      /* identical to box height, or 131% */
+      
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      
+      width: 20px;
+      height: 20px;
+
+    }
+
+    #Date{
+      /* Frame 133 */
+
+
+      box-sizing: border-box;
+
+      width: 407px;
+      height: 60px;
+
+      /* ლურჯი/400 */
+
+      border: 1.8px solid #8AC0E2;
+      border-radius: 8px;
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+    #DateDiv{
+      /* Input Fields */
+
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 8px 24px;
+      gap: 8px;
+
+      position: absolute;
+      width: 455px;
+      height: 105px;
+      left: calc(50% - 455px/2 - 235.5px);
+      top: 1140px;
+    }
+
+    #laptopPrice{
+      /* Input Fields */
+
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 8px 24px;
+      gap: 8px;
+
+      position: absolute;
+      width: 456px;
+      height: 134px;
+      left: calc(50% - 456px/2 + 235px);
+      top: 1140px;
+    }
+
+    #moveDown5{
+      /* Input Fields */
+
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 2px 24px;
+      gap: 8px;
+      
+      position: absolute;
+      width: 456px;
+      height: 134px;
+      left: calc(50% - 456px/2 + 235px);
+      top: 1190px;
+    }
+
+
+    #RS2{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 18px;
+
+      position: absolute;
+      width: 88px;
+      height: 21px;
+      left: 174px;
+      top: 1369px;
+    }
+
+    #RNS2{
+      /* ლეპტოპის მდგომარეობა */
+
+
+      position: absolute;
+      width: 225px;
+      height: 21px;
+      left: 174px;
+      top: 1320px;
+
+      font-family: 'Helvetica Neue';
+      
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      /* identical to box height, or 117% */
+
+      display: flex;
+      align-items: center;
+
+      color: #000000;
+    }

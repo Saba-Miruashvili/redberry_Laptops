@@ -1,0 +1,52 @@
+
+.logo {
+  position: fixed;
+  width: 112px;
+  height: 18px;
+  left: calc(50% - 112px / 2);
+  top: 79px;
+}
+
+.Landingpng {
+  position: fixed;
+  width: 781px;
+  height: 482px;
+  left: 589px;
+  top: 182px;
+}
+.Lbutton {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  /* gap: 26px; */
+  height: 60px;
+  width: 387px;
+  left: 766px;
+  top: 787px;
+}
+.button {
+  border-radius: 8px;
+  padding: 18px 60px 18px 60px;
+  justify-content: space-between;
+
+  background: #62a1eb;
+  color: white;
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  /* font-weight: 500; */
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  width: 387px;
+  height: 60px;
+  /* margin-top: 20px; */
+  margin-bottom: 30px;
+  }
+
+.font-face-gm {
+  font-family: "Helvetica Neue";
+ }
+ 

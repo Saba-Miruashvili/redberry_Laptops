@@ -1,0 +1,48 @@
+#Firstpage {
+  /* თანამშრომლის ინფო */
+
+  position: absolute;
+  width: 223px;
+  height: 24px;
+  left: 671px;
+  top: 91px;
+
+  display: flex;
+  flex-direction: row;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* შავი/700 */
+
+  color: #232323;
+}
+
+#Secondpage {
+  /* ლეპტოპის მახასიათებლები */
+
+  position: absolute;
+  width: 289px;
+  height: 24px;
+  right: 671px;
+  top: 91px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* შავი/700 */
+
+  color: #232323;
+}
+.nav body {
+  /* თანამშრომლის ინფო */
+
+  position: relative;
+  /* color: red;
+  background: #6b3b3b; */
+}
